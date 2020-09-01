@@ -1,0 +1,9 @@
+[HTTPServer]
+    Addr = "0.0.0.0:2333"
+    IsLimit = true
+    RedisAddr = "redis://10.108.21.18:6379:6379"
+    Count = 2
+    Dur = "1s"
+[Kafka]
+    Topic = "bdim"
+    Brokers = ["localhost:9092"]
